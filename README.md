@@ -3,9 +3,12 @@
 ## Prerequisites
 - Python 3.5+
 - Keras 2.0+
-- scipy, numpy, Pandas, tqdm, tables, h5py
-- dlib (for demo)
+- scipy, numpy, Pandas, tqdm, tables, h5py, dlib
 - OpenCV3
+
+```sh
+python -m pip install -r requirements.txt
+```
 
 It has been tested on these machines :  
 * Ubuntu 16.04 with Python 3.5.2, Keras 2.1.2, TensorFlow(-gpu) 1.5.0, CUDA 9.0, cuDNN 7.0
@@ -69,3 +72,19 @@ The **IMDB-WIKI** dataset being used is subject to the following conditions.
 
 [2] R. Rothe, R. Timofte, and L. V. Gool, "Deep expectation of real and apparent age from a single image
 without facial landmarks," IJCV, 2016.
+
+## Support
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D1WGU9)
+
+## Contributing
+
+1. Fork it!  
+2. Create your feature branch : `git checkout -b my-new-feature`  
+3. Commit your changes : `git commit -am 'Add some feature'`    
+4. Push to the branch : `git push origin my-new-feature`  
+5. Submit a pull request :D  
+
+## Issues
+
+Each project may have many problems. Contributing to the better development of this project by reporting them
