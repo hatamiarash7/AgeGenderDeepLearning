@@ -1,6 +1,7 @@
-from scipy.io import loadmat
-from datetime import datetime
 import os
+from datetime import datetime
+
+from scipy.io import loadmat
 
 
 def calc_age(taken, dob):
@@ -32,6 +33,6 @@ def load_data(mat_path):
 
 def mk_dir(dir):
     try:
-        os.mkdir( dir )
+        os.mkdir(dir)
     except OSError:
         pass

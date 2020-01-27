@@ -1,13 +1,13 @@
-import numpy as np
 from random import shuffle
 
+import cv2
+import numpy as np
+import scipy.ndimage as ndi
 from keras.utils import np_utils
 
-from preprocessor import preprocess_input
 from preprocessor import _imread as imread
 from preprocessor import _imresize as imresize
-import scipy.ndimage as ndi
-import cv2
+from preprocessor import preprocess_input
 
 
 class ImageGenerator(object):

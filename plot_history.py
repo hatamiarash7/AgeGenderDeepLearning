@@ -1,7 +1,8 @@
-import pandas as pd
-import matplotlib.pyplot as plt
 import argparse
 import os
+
+import matplotlib.pyplot as plt
+import pandas as pd
 
 
 def get_args():

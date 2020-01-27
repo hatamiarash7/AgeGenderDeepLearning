@@ -1,12 +1,11 @@
-
 # coding: utf-8
 
 import os
 
 import cv2
+import dlib
 import numpy as np
 from tqdm import tqdm
-import dlib
 
 from config import IMG_SIZE
 from models.mobile_net import MobileNetDeepEstimator
@@ -59,8 +58,7 @@ with open("prediction.csv", "a") as f:
             ages = np.arange(0, 21).reshape(21, 1)
             predicted_age = results[1].dot(ages).flatten()
             res = '{},{}\n'.format(im,
-                                   int(predicted_age[0]*4.76),
+                                   int(predicted_age[0] * 4.76),
                                    predicted_gender[0])
             print(res)
             f.write(res)
-

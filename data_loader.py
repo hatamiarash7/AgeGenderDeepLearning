@@ -1,6 +1,8 @@
-from scipy.io import loadmat
-import numpy as np
 from random import shuffle
+
+import numpy as np
+from scipy.io import loadmat
+
 from utils import calc_age
 
 
