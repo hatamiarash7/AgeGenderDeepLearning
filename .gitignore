@@ -104,9 +104,9 @@ ENV/
 data
 .DS_Store
 
-models
-!models/__init__.py
-!models/mobile_net.py
+models/*.h5
+models/*.json
+models/*.hdf5
 checkpoints
 logs
 export_android/*.py
